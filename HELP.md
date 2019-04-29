@@ -2,7 +2,7 @@
   
 ## Vuetify Reference  
 - [Toolbar](https://vuetifyjs.com/ja/components/toolbars)  
-- [Button](https://vuetifyjs.com/ja/components/toolbars)  
+- [Button](https://vuetifyjs.com/en/components/buttons#button)  
   
 ## Change color of Vuetify Component  
 where: srs\components\GlobalHeader.vue  
