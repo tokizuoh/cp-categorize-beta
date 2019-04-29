@@ -1,5 +1,9 @@
 # Useful links  
   
+## ICON  
+- [ICOOON MONO](http://icooon-mono.com/license/)  
+    Many thanks.  
+
 ## Vuetify Reference  
 - [Toolbar](https://vuetifyjs.com/ja/components/toolbars)  
 - [Footer](https://vuetifyjs.com/ja/components/footer)  
