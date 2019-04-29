@@ -2,7 +2,11 @@
   
 ## Vuetify Reference  
 - [Toolbar](https://vuetifyjs.com/ja/components/toolbars)  
+- [Footer](https://vuetifyjs.com/ja/components/footer)  
 - [Button](https://vuetifyjs.com/en/components/buttons#button)  
+  
+## Color Code  
+- [Traditional Colors of World](https://www.colordic.org/y/)  
   
 ## Change color of Vuetify Component  
 where: srs\components\GlobalHeader.vue  

@@ -1,7 +1,7 @@
 <template>
-  <v-toolbar color="#4d4398" height=47>
+  <v-toolbar color="#4d4398" height=47 scroll-toolbar-off-screen=true>
     <v-toolbar-side-icon class="white--text"></v-toolbar-side-icon>
-    <v-toolbar-title class="white--text">cp-categorize beta</v-toolbar-title>
+    <v-toolbar-title class="white--text">cp-categorize beta <img src='./icon.png'></v-toolbar-title>
     <v-spacer></v-spacer>
     <v-toolbar-items >
       <v-btn flat class="white--text" href="https://github.com/ozikot">
