@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <router-link to="/math">Go to Math</router-link>
     <h1>{{ msg }}</h1>
     <h1>{{ msg }}</h1>
     <h1>{{ msg }}</h1>
