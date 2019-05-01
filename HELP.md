@@ -3,11 +3,12 @@
 ## ICON  
 - [ICOOON MONO](http://icooon-mono.com/license/)  
     Many thanks.  
-
+  
 ## Vuetify Reference  
 - [Toolbar](https://vuetifyjs.com/ja/components/toolbars)  
 - [Footer](https://vuetifyjs.com/ja/components/footer)  
 - [Button](https://vuetifyjs.com/en/components/buttons#button)  
+- [Expansion Panel](https://vuetifyjs.com/en/components/expansion-panels)  
   
 ## Color Code  
 - [Traditional Colors of World](https://www.colordic.org/y/)  
