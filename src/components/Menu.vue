@@ -63,9 +63,3 @@ export default {
   }
 }
 </script>
-
-<style>
-  .v-card-text {
-    font-size: 100pt;
-  }
-</style>
