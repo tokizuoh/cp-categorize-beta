@@ -1,22 +1,21 @@
 <template>
   <div id="app">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <global-header/>
-    <global-title/>
+    <app-header/>
+    <br>
     <router-view/>
-    <global-footer/>
+    <app-footer/>
   </div>
 </template>
 
 <script>
-import GlobalHeader from './components/GlobalHeader'
-import GlobalTitle from './components/GlobalTitle'
-import GlobalFooter from './components/GlobalFooter'
+import AppHeader from './components/template/AppHeader'
+import AppFooter from './components/template/AppFooter'
+
 export default {
   components: {
-    GlobalHeader,
-    GlobalTitle,
-    GlobalFooter,
+    AppHeader,
+    AppFooter
   }
 }
 </script>
