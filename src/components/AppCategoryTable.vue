@@ -9,13 +9,12 @@
     </v-toolbar>
     <v-data-table
       :headers="headers"
-      :items="desserts"
-      :rows-per-page-items="hogehoge"
+      hide-actions="true"
+      :items="categories"
       class="elevation-1">
       <template v-slot:items="props">
         <td>{{ props.item.name }}</td>
         <td class="text-xs-left">{{ props.item.about }}</td>
-        <td class="text-xs-left">{{ props.item.problems }}</td>
       </template>
     </v-data-table>
   </p>
@@ -25,29 +24,22 @@
   export default {
     data () {
       return {
-        hogehoge: [
-            10, 20, 30
-        ],
         headers: [
           {
             text: 'category',
             align: 'center',
             sortable: false,
-            value: 'name'
+            value: 'name',
+            path: '/math'
           },
           { 
             text: 'about',
             align: 'center',
             sortable: false, 
             value: 'about' 
-          },
-          {
-            text: 'Problems',
-            align: 'center',
-            value: 'problems',
           }
         ],
-        desserts: [
+        categories: [
           {
             name: '数学',
             about: '約数, 素数, 最大公約数, 最小公倍数, 組み合わせ',
@@ -84,7 +76,13 @@
             name: '半分全列挙',
             problems: 10
           },
-        ]
+        ],
+        get category() {
+          return this._category;
+        },
+        set category(value) {
+          this._category=value;
+        },
       }
     }
   }

@@ -13,7 +13,7 @@
             <br>
             <h3 class="headline mb-0"><b>cp-categorize beta</b></h3>
             <br>
-            <hr width=185% color="#E6E6E6">
+            <v-divider></v-divider>
             <br>
             <div> {{ card_text }} </div>
         </div>
@@ -30,7 +30,7 @@
   export default {
     data () {
       return {
-        card_text: '競技プログラミングの問題を勝手に分類　作者体感難易度を併記'
+        card_text: 'AtCoder, Aizu Online Judge, CODE FORCES, CS Academy, yukicoderなどで出題された競技プログラミングの問題を勝手に分類'
       }
     }
   }
