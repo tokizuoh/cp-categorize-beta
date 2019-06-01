@@ -1,6 +1,7 @@
 <template>
   <p>
-    <v-toolbar height="30px">
+    <v-toolbar height="30px" flat>
+      <v-icon>category</v-icon>
       <v-toolbar-title>Category</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
@@ -91,7 +92,7 @@
 
 <style>
 p {
-    width: 70%;
+    width: 85%;
     margin: auto;
 }
 </style>

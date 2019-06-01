@@ -1,39 +1,44 @@
 <template>
-  <v-layout>
-    <v-flex xs12 sm6 offset-sm3>
-      <div class="caaard">
-        <v-card width="200%">
-            <v-card-title primary-title>
-            <div>
-                <h3 class="headline mb-0">Kangaroo Valley Safari</h3>
-                <div> {{ card_text }} </div>
-            </div>
-            </v-card-title>
+  <p>
+    <v-toolbar height="30px" flat>
+      <v-icon>subject</v-icon>
+      <v-toolbar-title>Introduction</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-toolbar-items class="hidden-sm-and-down">
+      </v-toolbar-items>
+    </v-toolbar>
+    <v-card>
+        <v-card-title primary-title>
+        <div>
+            <br>
+            <h3 class="headline mb-0"><b>cp-categorize beta</b></h3>
+            <br>
+            <hr width=185% color="#E6E6E6">
+            <br>
+            <div> {{ card_text }} </div>
+        </div>
+        </v-card-title>
 
-            <v-card-actions>
-            <v-btn flat color="orange">Share</v-btn>
-            <v-btn flat color="orange">Explore</v-btn>
-            </v-card-actions>
-        </v-card>
-      </div>
-    </v-flex>
-  </v-layout>
+        <v-card-actions>
+        <v-btn flat color="orange" href="https://github.com/ozikot/cp-categorize-beta" target="_blank">GitHub</v-btn>
+        </v-card-actions>
+    </v-card>
+  </p>
 </template>
 
 <script>
   export default {
     data () {
       return {
-        card_text: 'Lorem ipsum dolor sit amet, brute iriure accusata ne mea. Eos suavitate referrentur ad, te duo agam libris qualisque, utroque quaestio accommodare no qui. Et percipit laboramus usu, no invidunt verterem nominati mel. Dolorem ancillae an mei, ut putant invenire splendide mel, ea nec propriae adipisci. Ignota salutandi accusamus in sed, et per malis fuisset, qui id ludus appareat.'
+        card_text: '競技プログラミングの問題を勝手に分類　作者体感難易度を併記'
       }
     }
   }
 </script>
 
 <style scoped>
-.caaard {
-    margin: auto;
-    widows: 50%;
+p {
+  width: 85%;
+  margin: auto;
 }
 </style>
-
