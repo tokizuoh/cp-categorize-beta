@@ -2,12 +2,12 @@
   <div>
     <app-jumbotron :categoryTitle="categoryTitle">
     </app-jumbotron>
-    <app-data-table categoryName="UnionFind"
+    <app-data-table :categoryName="categoryName.dijkstra"
                     :problems="problems"> 
     </app-data-table>
     <br>
     <br>
-    <app-data-table categoryName="Dijkstra"
+    <app-data-table :categoryName="categoryName.unionfind"
                     :problems="problems"> 
     </app-data-table>
   </div>
@@ -23,15 +23,13 @@ export default {
   },
   data () {
     return {
-      categoryName: [
-        {
-          dijkstra: "Dijkstra",
-          unionfind: "UnionFind"
-        }
-      ],
+      categoryName: {
+        dijkstra: "Dijkstra",
+        unionfind: "UnionFind"
+      },
       categoryTitle: "Graph",
       problems: [
-        {
+      　{
           name: 'Hoge',
           about: 'Uwaaa'
         },
