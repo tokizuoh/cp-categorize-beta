@@ -13,8 +13,10 @@
       :items="categories"
       class="elevation-1">
       <template v-slot:items="props">
-        <td>{{ props.item.name }}</td>
-        <td class="text-xs-left">{{ props.item.about }}</td>
+        <tr @click="pavePath(props.item)">
+          <td>{{ props.item.name }}</td>
+          <td class="text-xs-left">{{ props.item.about }}</td>
+        </tr>
       </template>
     </v-data-table>
   </p>
@@ -77,12 +79,21 @@
             problems: 10
           },
         ],
-        get category() {
-          return this._category;
-        },
-        set category(value) {
-          this._category=value;
-        },
+      }
+    },
+    methods: {
+      pavePath(a){
+        const dict = {
+          '数学': 'math',
+          '全探索': 'bruteforce',
+          'グラフ': 'graph',
+          '累積和': 'accumlate_sum',
+          '尺取法': 'two_pointer',
+          '二分探索': 'binary_search',
+          '動的計画法': 'dp',
+          '半分全列挙': 'split_and_list'
+        }
+        this.$router.push(`/${dict[a.name]}`)
       }
     }
   }

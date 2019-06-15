@@ -1,0 +1,73 @@
+<template>
+  <p>
+    <v-toolbar height="30px" flat>
+      <v-icon>list</v-icon>
+      <v-toolbar-title> {{ categoryName }} </v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-toolbar-items class="hidden-sm-and-down">
+      </v-toolbar-items>
+    </v-toolbar>
+    <v-data-table
+      :headers="headers"
+      hide-actions="true"
+      :items="problems"
+      class="elevation-1">
+      <template v-slot:items="props">
+        <td>{{ props.item.name }}</td>
+        <td class="text-xs-left">{{ props.item.about }}</td>
+      </template>
+    </v-data-table>
+  </p>
+</template>
+
+<script>
+  export default {
+    data () {
+      return {
+        headers: [
+          {
+            text: 'title',
+            align: 'center',
+            sortable: false,
+            value: 'name',
+          },
+          { 
+            text: 'about',
+            align: 'center',
+            sortable: false, 
+            value: 'about' 
+          }
+        ],
+        /*
+        problems: [
+          {
+            name: '数学',
+            about: '約数, 素数, 最大公約数, 最小公倍数, 組み合わせ'
+          },
+        ]
+        */
+      }
+    },
+    props: {
+      categoryDetail: {
+        type: String
+      },
+      categoryName: {
+        type: Object
+      },
+      categoryTitle: {
+        type: String
+      },
+      problems: {
+        type: Object
+      }
+    }
+  }
+</script>
+
+<style>
+p {
+    width: 85%;
+    margin: auto;
+}
+</style>

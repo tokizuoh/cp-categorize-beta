@@ -4,3 +4,10 @@
     <div>&copy; {{ new Date().getFullYear() }} - <strong>ozikot</strong></div>
   </v-footer>
 </template>
+
+<style>
+  .pa-3{
+    position: fixed;
+    bottom: 0;
+  }
+</style>

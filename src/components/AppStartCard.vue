@@ -3,24 +3,23 @@
     <v-toolbar height="30px" flat>
       <v-icon>subject</v-icon>
       <v-toolbar-title>Introduction</v-toolbar-title>
-      <v-spacer></v-spacer>
-      <v-toolbar-items class="hidden-sm-and-down">
-      </v-toolbar-items>
     </v-toolbar>
     <v-card>
         <v-card-title primary-title>
-        <div>
-            <br>
-            <h3 class="headline mb-0"><b>cp-categorize beta</b></h3>
-            <br>
-            <v-divider></v-divider>
-            <br>
-            <div> {{ card_text }} </div>
+        <div class="card-title">
+            <h3 class="headline"><b>cp-categorize beta</b></h3>
         </div>
         </v-card-title>
-
+        <div class="divider">
+          <v-divider></v-divider>
+        </div>
+        <div class="card-text"> {{ card_text }} </div>
         <v-card-actions>
-        <v-btn flat color="orange" href="https://github.com/ozikot/cp-categorize-beta" target="_blank">GitHub</v-btn>
+        <v-btn flat color="purple" href="https://github.com/ozikot/cp-categorize-beta" target="_blank">
+          <div class="github-link">
+            GitHub
+          </div>
+        </v-btn>
         </v-card-actions>
     </v-card>
   </p>
@@ -40,5 +39,25 @@
 p {
   width: 85%;
   margin: auto;
+}
+
+.card-text {
+  padding: 10px 20px;
+}
+
+.card-title {
+  padding: 0px 10px;
+}
+
+.divider {
+  padding: 10px 20px;
+}
+
+.github-link {
+  text-transform: none !important;
+}
+
+.headline {
+  padding: 25px 0px 0px 0px;
 }
 </style>
