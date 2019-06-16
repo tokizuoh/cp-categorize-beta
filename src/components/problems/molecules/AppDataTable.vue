@@ -15,6 +15,7 @@
       <template v-slot:items="props">
         <td>{{ props.item.name }}</td>
         <td class="text-xs-left">{{ props.item.about }}</td>
+        <td class="text-xs-left">{{ props.item.score }}</td>
       </template>
     </v-data-table>
   </p>
@@ -36,16 +37,14 @@
             align: 'center',
             sortable: false, 
             value: 'about' 
+          },
+          { 
+            text: 'score',
+            align: 'center',
+            sortable: true, 
+            value: 'score' 
           }
         ],
-        /*
-        problems: [
-          {
-            name: '数学',
-            about: '約数, 素数, 最大公約数, 最小公倍数, 組み合わせ'
-          },
-        ]
-        */
       }
     },
     props: {

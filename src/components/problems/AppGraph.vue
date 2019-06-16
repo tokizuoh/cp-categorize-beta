@@ -36,86 +36,108 @@ export default {
         dijkstra: [
           {
             name: 'いろはちゃんコンテストDay1-I: リスのお仕事',
-            about: 'Uwaaaaaaaaaaaaaaa'
+            about: 'Uwaaaaaaaaaaaaaaa',
+            score: 500
           },
           {
             name: 'Indeedなう（オープンコンテスト）-B: Office Ninja',
-            about: 'Uwaaaaaaaaaaaふぁふぁaaaa'
+            about: 'Uwaaaaaaaaaaaふぁふぁaaaa',
+            score: 0
+
           },
           {
             name: 'CODE FESTIVAL 2014 Easy-C: 身体バランス',
-            about: 'Uwaaaaaaaaaaaふぁふぁaaaa'
+            about: 'Uwaaaaaaaaaaaふぁふぁaaaa',
+            score: 0
           },
           {
             name: 'WUPC2012-E: 会場への道 (自力未AC)',
-            about: 'Uwaaaaaaaaaaaふぁふぁaaaa'
+            about: 'Uwaaaaaaaaaaaふぁふぁaaaa',
+            score: 0
           },
           {
             name: 'ABC075-C: Bridge',
-            about: 'Uwaaaaaaaaaaaふぁふぁaaaa'
+            about: 'Uwaaaaaaaaaaaふぁふぁaaaa',
+            score: 300
           },
           {
             name: 'ABC070-D: Transit Tree Path',
-            about: 'Uwaaaaaaaaaaaふぁふぁaaaa'
+            about: 'Uwaaaaaaaaaaaふぁふぁaaaa',
+            score: 400
+
           },
           {
             name: 'ABC022-C: Blue Bird',
-            about: 'Uwaaaaaaaaaaaふぁふぁaaaa'
+            about: 'Uwaaaaaaaaaaaふぁふぁaaaa',
+            score: 0
           },
           {
             name: 'ABC020-C: 壁抜け',
-            about: 'Uwaaaaaaaaaaaふぁふぁaaaa'
+            about: 'Uwaaaaaaaaaaaふぁふぁaaaa',
+            score: 0
           },
           
         ],
         unionfind: [
           {
             name: 'diverta 2019 Programming Contest 2-B: Picking Up',
-            about: 'Uwaaaaaaaaaaaaaaa'
+            about: 'Uwaaaaaaaaaaaaaaa',
+            score: 300
           },
           {
             name: 'CODE FESTIVAL 2016 Final-C: Interpretation',
-            about: 'Uwaaaaaaaaaaaaaaa'
+            about: 'Uwaaaaaaaaaaaaaaa',
+            score: 400
           },
           {
             name: 'KUPC2012-C: ソーシャル',
-            about: 'Uwaaaaaaaaaaaaaaa'
+            about: 'Uwaaaaaaaaaaaaaaa',
+            score: 0
           },
           {
             name: 'ARC056-B: 駐車場',
-            about: 'Uwaaaaaaaaaaaaaaa'
+            about: 'Uwaaaaaaaaaaaaaaa',
+            score: 0
           },
           {
             name: 'ARC037-B: バウムテスト',
-            about: 'Uwaaaaaaaaaaaaaaa'
+            about: 'Uwaaaaaaaaaaaaaaa',
+            score: 0
           },
           {
             name: 'ARC032-C: 道路工事',
-            about: 'Uwaaaaaaaaaaaaaaa'
+            about: 'Uwaaaaaaaaaaaaaaa',
+            score: 0
           },
           {
             name: 'ABC129-D: Lamp',
-            about: 'Uwaaaaaaaaaaaaaaa'
+            about: 'Uwaaaaaaaaaaaaaaa',
+            score: 400
           },
           {
             name: 'ABC120-D: Decayed Bridges',
-            about: 'Uwaaaaaaaaaaaaaaa'
+            about: 'Uwaaaaaaaaaaaaaaa',
+            score: 400
           },
           {
             name: 'ABC097-D: Equals',
-            about: 'Uwaaaaaaaaaaaaaaa'
+            about: 'Uwaaaaaaaaaaaaaaa',
+            score: 400
           },
           {
             name: 'ABC049-D: 連結 / Connectivity',
-            about: 'Uwaaaaaaaaaaaaaaa'
+            about: 'Uwaaaaaaaaaaaaaaa',
+            score: 400
           },
           {
             name: 'ABC040-D: 道路の老朽化対策について',
-            about: 'Uwaaaaaaaaaaaaaaa'
+            about: 'Uwaaaaaaaaaaaaaaa',
+            score: 0
           },
           {
             name: 'ATC001-B: Union Find',
-            about: 'Uwaaaaaaaaaaaaaaa'
+            about: 'Uwaaaaaaaaaaaaaaa',
+            score: 0
           },
 
         ]
