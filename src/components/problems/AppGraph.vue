@@ -43,39 +43,44 @@ export default {
           {
             name: 'Indeedなう（オープンコンテスト）-B: Office Ninja',
             about: 'Uwaaaaaaaaaaaふぁふぁaaaa',
-            score: 0
-
+            score: 0,
+            href: 'https://atcoder.jp/contests/indeednow-finala-open/tasks/indeednow_2015_finala_b'
           },
           {
             name: 'CODE FESTIVAL 2014 Easy-C: 身体バランス',
             about: 'Uwaaaaaaaaaaaふぁふぁaaaa',
-            score: 0
+            score: 0,
+            href: 'https://atcoder.jp/contests/code-festival-2014-morning-easy/tasks/code_festival_morning_easy_c'
           },
           {
             name: 'WUPC2012-E: 会場への道 (自力未AC)',
             about: 'Uwaaaaaaaaaaaふぁふぁaaaa',
-            score: 0
+            score: 0,
+            href: 'https://atcoder.jp/contests/wupc2012/tasks/wupc2012_5'
           },
           {
             name: 'ABC075-C: Bridge',
             about: 'Uwaaaaaaaaaaaふぁふぁaaaa',
-            score: 300
+            score: 300,
+            href: 'https://atcoder.jp/contests/abc075/tasks/abc075_c'
           },
           {
             name: 'ABC070-D: Transit Tree Path',
             about: 'Uwaaaaaaaaaaaふぁふぁaaaa',
-            score: 400
-
+            score: 400,
+            href: 'https://atcoder.jp/contests/abc070/tasks/abc070_d'
           },
           {
             name: 'ABC022-C: Blue Bird',
             about: 'Uwaaaaaaaaaaaふぁふぁaaaa',
-            score: 0
+            score: 0,
+            href: 'https://atcoder.jp/contests/abc022/tasks/abc022_c'
           },
           {
             name: 'ABC020-C: 壁抜け',
             about: 'Uwaaaaaaaaaaaふぁふぁaaaa',
-            score: 0
+            score: 0,
+            href: 'https://atcoder.jp/contests/abc020/tasks/abc020_c'
           },
           
         ],
@@ -83,64 +88,75 @@ export default {
           {
             name: 'diverta 2019 Programming Contest 2-B: Picking Up',
             about: 'Uwaaaaaaaaaaaaaaa',
-            score: 300
+            score: 300,
+            href: ''
           },
           {
             name: 'CODE FESTIVAL 2016 Final-C: Interpretation',
             about: 'Uwaaaaaaaaaaaaaaa',
-            score: 400
+            score: 400,
+            href: ''
           },
           {
             name: 'KUPC2012-C: ソーシャル',
             about: 'Uwaaaaaaaaaaaaaaa',
-            score: 0
+            score: 0,
+            href: ''
           },
           {
             name: 'ARC056-B: 駐車場',
             about: 'Uwaaaaaaaaaaaaaaa',
-            score: 0
+            score: 0,
+            href: ''
           },
           {
             name: 'ARC037-B: バウムテスト',
             about: 'Uwaaaaaaaaaaaaaaa',
-            score: 0
+            score: 0,
+            href: ''
           },
           {
             name: 'ARC032-C: 道路工事',
             about: 'Uwaaaaaaaaaaaaaaa',
-            score: 0
+            score: 0,
+            href: ''
           },
           {
             name: 'ABC129-D: Lamp',
             about: 'Uwaaaaaaaaaaaaaaa',
-            score: 400
+            score: 400,
+            href: ''
           },
           {
             name: 'ABC120-D: Decayed Bridges',
             about: 'Uwaaaaaaaaaaaaaaa',
-            score: 400
+            score: 400,
+            href: ''
           },
           {
             name: 'ABC097-D: Equals',
             about: 'Uwaaaaaaaaaaaaaaa',
-            score: 400
+            score: 400,
+            href: ''
           },
           {
             name: 'ABC049-D: 連結 / Connectivity',
             about: 'Uwaaaaaaaaaaaaaaa',
-            score: 400
+            score: 400,
+            href: ''
           },
           {
             name: 'ABC040-D: 道路の老朽化対策について',
             about: 'Uwaaaaaaaaaaaaaaa',
-            score: 0
+            score: 0,
+            href: ''
           },
           {
             name: 'ATC001-B: Union Find',
             about: 'Uwaaaaaaaaaaaaaaa',
-            score: 0
+            score: 0,
+            href: ''
           },
-
         ]
       }
     }

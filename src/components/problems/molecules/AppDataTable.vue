@@ -13,7 +13,8 @@
       :items="problems"
       class="elevation-1">
       <template v-slot:items="props">
-        <tr @click="window.location.href=props.item.href">
+        <!-- <tr @click="location.href=props.item.href"> -->
+        <tr @click="jump(props.item.href)">
           <td>{{ props.item.name }}</td>
           <td class="text-xs-left">{{ props.item.about }}</td>
           <td class="text-xs-left">{{ props.item.score }}</td>
@@ -61,6 +62,11 @@
       },
       problems: {
         type: Object
+      }
+    },
+    methods:{
+      jump(a){
+        window.open(a, '_blank')
       }
     }
   }
