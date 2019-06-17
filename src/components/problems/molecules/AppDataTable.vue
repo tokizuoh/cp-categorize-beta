@@ -13,8 +13,7 @@
       :items="problems"
       class="elevation-1">
       <template v-slot:items="props">
-        <!-- <tr @click="location.href=props.item.href"> -->
-        <tr @click="say(props.item.href)">
+        <tr @click="window.location.href=props.item.href">
           <td>{{ props.item.name }}</td>
           <td class="text-xs-left">{{ props.item.about }}</td>
           <td class="text-xs-left">{{ props.item.score }}</td>
@@ -62,11 +61,6 @@
       },
       problems: {
         type: Object
-      }
-    },
-    methods:{
-      say(a){
-        window.location.href=a
       }
     }
   }
