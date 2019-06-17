@@ -37,7 +37,8 @@ export default {
           {
             name: 'いろはちゃんコンテストDay1-I: リスのお仕事',
             about: 'Uwaaaaaaaaaaaaaaa',
-            score: 500
+            score: 500,
+            href: 'https://atcoder.jp/contests/iroha2019-day1/tasks/iroha2019_day1_i'
           },
           {
             name: 'Indeedなう（オープンコンテスト）-B: Office Ninja',
