@@ -4,10 +4,10 @@
              height=47
              scroll-toolbar-off-screen=true>
     <v-toolbar-title class="white--text">
-      <a style="color: #fff" 
-         href='/'>
+      <router-link style="color: #fff" 
+         to='/'>
         cp-categorize beta
-      </a>
+      </router-link>
     </v-toolbar-title>
   </v-toolbar>
 </template>
