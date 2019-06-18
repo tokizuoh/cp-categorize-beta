@@ -5,7 +5,7 @@
              scroll-toolbar-off-screen=true>
     <v-toolbar-title class="white--text">
       <router-link style="color: #fff" 
-         to='/'>
+         　　　　　　to='/'>
         cp-categorize beta
       </router-link>
     </v-toolbar-title>

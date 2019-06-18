@@ -1,7 +1,17 @@
 <template>
-  <v-footer class="pa-3" color="" absolute=true>
+  <v-footer class="pa-3"
+            absolute=true>
     <v-spacer></v-spacer>
-    <div>&copy; {{ new Date().getFullYear() }} - <strong>ozikot</strong></div>
+    <div>
+      &copy; {{ new Date().getFullYear() }} - 
+      <strong>
+        <a style="color: #000" 
+           href='https://github.com/ozikot'
+           target="_blank">
+          ozikot
+        </a>
+      </strong>
+    </div>
   </v-footer>
 </template>
 

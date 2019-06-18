@@ -12,13 +12,24 @@
       hide-actions="true"
       :items="problems"
       class="elevation-1">
+      <template slot="headerCell" slot-scope="props">
+        <v-tooltip bottom>
+          <template v-slot:activator="{ on }">
+            <span v-on="on">
+              {{ props.header.text }}
+            </span>
+          </template>
+          <span>
+            {{ props.header.detail }}
+          </span>
+        </v-tooltip>
+      </template>
       <template v-slot:items="props">
-        <!-- <tr @click="location.href=props.item.href"> -->
         <tr @click.right.prevent="say(1)"
             @click.left="jump(props.item.href)">
           <td>{{ props.item.name }}</td>
-          <td class="text-xs-left">{{ props.item.about }}</td>
           <td class="text-xs-left">{{ props.item.score }}</td>
+          <td class="text-xs-left">{{ props.item.intuition }}</td>
         </tr>
       </template>
     </v-data-table>
@@ -33,26 +44,23 @@
           {
             text: 'title',
             align: 'center',
-            sortable: false,
+            sortable: true,
             value: 'name',
-          },
-          { 
-            text: 'about',
-            align: 'center',
-            sortable: false, 
-            value: 'about' 
+            detail: '[ コンテスト名 ] - [ ID ] : [ 問題名 ]'
           },
           { 
             text: 'score',
             align: 'center',
             sortable: true, 
-            value: 'score' 
+            value: 'score',
+            detail: '配点 (無記載の場合は0)'
           },
           { 
             text: 'intuition',
             align: 'center',
             sortable: true, 
-            value: 'intuition' 
+            value: 'intuition',
+            detail: '作者体感配点 (AtCoder配点基準)'
           }
         ],
       }
