@@ -1,5 +1,8 @@
 <template>
-  <v-toolbar dark color="#16164ds" height=47 scroll-toolbar-off-screen=true>
+  <v-toolbar dark
+             color="#16164ds"
+             height=47
+             scroll-toolbar-off-screen=true>
     <v-toolbar-title class="white--text">
       <a style="color: #fff" 
          href='/'>
