@@ -15,7 +15,10 @@
         </div>
         <div class="card-text"> {{ card_text }} </div>
         <v-card-actions>
-        <v-btn flat color="purple" href="https://github.com/ozikot/cp-categorize-beta" target="_blank">
+        <v-btn flat
+               color="purple"
+               href="https://github.com/ozikot/cp-categorize-beta"
+               target="_blank">
           <div class="github-link">
             GitHub
           </div>

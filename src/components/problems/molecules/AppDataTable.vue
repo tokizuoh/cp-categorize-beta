@@ -14,7 +14,8 @@
       class="elevation-1">
       <template v-slot:items="props">
         <!-- <tr @click="location.href=props.item.href"> -->
-        <tr @click="jump(props.item.href)">
+        <tr @click.right.prevent="say(1)"
+            @click.left="jump(props.item.href)">
           <td>{{ props.item.name }}</td>
           <td class="text-xs-left">{{ props.item.about }}</td>
           <td class="text-xs-left">{{ props.item.score }}</td>
@@ -46,6 +47,12 @@
             align: 'center',
             sortable: true, 
             value: 'score' 
+          },
+          { 
+            text: 'intuition',
+            align: 'center',
+            sortable: true, 
+            value: 'intuition' 
           }
         ],
       }
@@ -67,6 +74,9 @@
     methods:{
       jump(a){
         window.open(a, '_blank')
+      },
+      say(a){
+        alert(a)
       }
     }
   }
