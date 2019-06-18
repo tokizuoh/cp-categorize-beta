@@ -1,0 +1,33 @@
+data:
+- Graph: 
+  - fields: bfs
+    problems:
+      - name: "QUPC2018-C: Ito Campus"
+        score: 400
+        intuition: 400
+        href: "https://atcoder.jp/contests/qupc2018/tasks/qupc2018_c"
+      - name: "TPC追いコン-A: 不完全迷路"
+        score: 0
+        intuition: 400
+        href: "https://atcoder.jp/contests/oidashi/tasks/oidashi_a"
+      - name: "WUPC2012-C: 自宅からの脱出"
+        score: 0
+        intuition: 350
+        href: "https://atcoder.jp/contests/wupc2012/tasks/wupc2012_3"
+  - fields: UnionFind
+    problems:
+      - name: "diverta 2019 Programming Contest 2-B: Picking Up"
+        score: 300
+        intuition: 350
+        href: "https://atcoder.jp/contests/diverta2019-2/tasks/diverta2019_2_b"
+      - name: "CODE FESTIVAL 2016 Final-C: Interpretation"
+        score: 400
+        intuition: 400
+        href: "https://atcoder.jp/contests/cf16-final-open/tasks/codefestival_2016_final_c"
+- Math:
+  - fields: combination
+    problems:
+      - name: hoge
+        score: 400
+        intuition: 400
+        href: fuga
