@@ -2,7 +2,7 @@
   <v-toolbar dark
              color="#16164ds"
              height=47
-             scroll-toolbar-off-screen=true>
+             scroll-toolbar-off-screen>
     <v-toolbar-title class="white--text">
       <router-link style="color: #fff" 
          　　　　　　to='/'>
@@ -16,11 +16,6 @@
 export default {
   props: {
     color: "purple"
-  },
-  methods: {
-    pavePath(){
-      this.$router.push('/')
-    }
   }
 }
 </script>
