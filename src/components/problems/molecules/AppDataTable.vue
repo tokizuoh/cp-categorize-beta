@@ -1,18 +1,24 @@
 <template>
-  <p>
-    <v-toolbar height="30px" flat>
-      <v-icon>list</v-icon>
-      <v-toolbar-title> {{ categoryName }} </v-toolbar-title>
-      <v-spacer></v-spacer>
+  <div class="entire-datatable">
+    <v-toolbar flat
+               height="30px">
+      <v-icon>
+        list
+      </v-icon>
+      <v-toolbar-title>
+        {{ categoryName }}
+      </v-toolbar-title>
+      <v-spacer>
+      </v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
       </v-toolbar-items>
     </v-toolbar>
-    <v-data-table
-      :headers="headers"
-      hide-actions="true"
-      :items="problems"
-      class="elevation-1">
-      <template slot="headerCell" slot-scope="props">
+    <v-data-table :headers="headers"
+                  hide-actions
+                  :items="problems"
+                  class="elevation-1">
+      <template slot="headerCell"
+                slot-scope="props">
         <v-tooltip bottom>
           <template v-slot:activator="{ on }">
             <span v-on="on">
@@ -24,19 +30,23 @@
           </span>
         </v-tooltip>
       </template>
-      <template v-slot:items="props">
-        <tr @click.right.prevent="say(1)"
-            @click.left="jump(props.item.href)">
-          <td>{{ props.item.name }}</td>
-          <td class="text-xs-left">{{ props.item.score }}</td>
-          <td class="text-xs-left">{{ props.item.intuition }}</td>
-        </tr>
-      </template>
+        <template v-slot:items="props">
+          <tr @click.right.prevent="say(1)"
+              @click.left="jump(props.item.href)">
+            <td>{{ props.item.name }}</td>
+            <td class="text-xs-left">
+              {{ props.item.score }}
+            </td>
+            <td class="text-xs-left">
+              {{ props.item.intuition }}
+            </td>
+          </tr>
+        </template>
     </v-data-table>
     <br>
     <br>
     <br>
-  </p>
+  </div>
 </template>
 
 <script>
@@ -73,15 +83,16 @@
         type: String
       },
       categoryName: {
-        type: Object
+        type: String
       },
       categoryTitle: {
         type: String
       },
       problems: {
-        type: Object
+        type: Array
       }
     },
+    pagination: {},
     methods:{
       jump(a){
         window.open(a, '_blank')
@@ -89,13 +100,13 @@
       say(a){
         alert(a)
       }
-    }
+    },
   }
 </script>
 
 <style>
-p {
-    width: 85%;
-    margin: auto;
+.entire-datatable {
+  width: 85%;
+  margin: auto;
 }
 </style>

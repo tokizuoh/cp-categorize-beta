@@ -1,6 +1,6 @@
 <template>
   <v-footer class="pa-3"
-            absolute=true>
+            absolute>
     <v-spacer></v-spacer>
     <div>
       &copy; {{ new Date().getFullYear() }} - 
