@@ -1,14 +1,17 @@
 <template>
   <div>
-    <app-jumbotron :categoryTitle="categoryTitle"></app-jumbotron>
+    <app-jumbotron :categoryTitle="categoryTitle">
+    </app-jumbotron>
     <div id="data">
-      <app-data-table
-        v-for="d in categoryName"
-        :key="d.name"
-        :categoryName="d.name"
-        :problems="d.problems"
-      ></app-data-table>
+      <app-data-table v-for="d in categoryName"
+                      :key="d.name"
+                      :categoryName="d.fields"
+                      :problems="d.problems">
+      </app-data-table>
     </div>
+    <br>
+    <br>
+    <br>
   </div>
 </template>
 
