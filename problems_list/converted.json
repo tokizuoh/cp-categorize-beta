@@ -297,6 +297,82 @@
               "href": "https://beta.atcoder.jp/contests/atc001/tasks/unionfind_a"
             }
           ]
+        },
+        {
+          "fields": "Warshall Floyd",
+          "problems": [
+            {
+              "name": "ARC035-C: アットコーダー王国の交通事情",
+              "score": 0,
+              "intuition": 400,
+              "href": "https://atcoder.jp/contests/arc035/tasks/arc035_c"
+            },
+            {
+              "name": "ABC079-D: Wall",
+              "score": 400,
+              "intuition": 400,
+              "href": "https://atcoder.jp/contests/abc079/tasks/abc079_d"
+            },
+            {
+              "name": "ABC074-D: Restoring Road Network",
+              "score": 500,
+              "intuition": 450,
+              "href": "https://atcoder.jp/contests/abc074/tasks/arc083_b"
+            },
+            {
+              "name": "ABC073-D: joisino's travel",
+              "score": 400,
+              "intuition": 400,
+              "href": "https://atcoder.jp/contests/abc073/tasks/abc073_d"
+            },
+            {
+              "name": "ABC054-C: One-stroke Path",
+              "score": 300,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/abc054/tasks/abc054_c"
+            },
+            {
+              "name": "ABC051-D: Candidates of No Shortest Paths",
+              "score": 400,
+              "intuition": 400,
+              "href": "https://atcoder.jp/contests/abc051/tasks/abc051_d"
+            },
+            {
+              "name": "ABC022-C: Blue Bird",
+              "score": 0,
+              "intuition": 400,
+              "href": "https://atcoder.jp/contests/abc051/tasks/abc051_d"
+            },
+            {
+              "name": "ABC016-C: 友達の友達",
+              "score": 0,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/abc016/tasks/abc016_3"
+            },
+            {
+              "name": "第9回日本情報オリンピック予選-C: パーティー",
+              "score": 0,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/joi2010yo/tasks/joi2010yo_c"
+            }
+          ]
+        },
+        {
+          "fields": "Others",
+          "problems": [
+            {
+              "name": "NJPC2017-B: 格子グラフ",
+              "score": 300,
+              "intuition": 350,
+              "href": "https://atcoder.jp/contests/njpc2017/tasks/njpc2017_b"
+            },
+            {
+              "name": "ARC030-A: 閉路グラフ",
+              "score": 0,
+              "intuition": 400,
+              "href": "https://atcoder.jp/contests/arc030/tasks/arc030_1"
+            }
+          ]
         }
       ]
     },

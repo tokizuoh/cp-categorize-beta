@@ -66,7 +66,7 @@
             align: 'center',
             sortable: true, 
             value: 'score',
-            detail: '配点 (無記載の場合は0)'
+            detail: '配点 (無記載, 特殊な場合は0)'
           },
           { 
             text: 'intuition',
