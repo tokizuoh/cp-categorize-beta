@@ -385,14 +385,209 @@
     {
       "Math": [
         {
-          "fields": "combination",
-          "attr": "combination",
+          "fields": "Divisor",
+          "attr": "divisor",
           "problems": [
             {
-              "name": "hoge",
+              "name": "いろはちゃんコンテストDay1-F: Head of The Dragon",
+              "score": 300,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/iroha2019-day1/tasks/iroha2019_day1_f"
+            },
+            {
+              "name": "ABC114-D: 756",
               "score": 400,
               "intuition": 400,
-              "href": "fuga"
+              "href": "https://atcoder.jp/contests/abc114/tasks/abc114_d"
+            },
+            {
+              "name": "ABC112-D: Partition",
+              "score": 400,
+              "intuition": 400,
+              "href": "https://atcoder.jp/contests/abc112/tasks/abc112_d"
+            },
+            {
+              "name": "ABC057-C: Digits in Multiplication",
+              "score": 300,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/abc057/tasks/abc057_c"
+            },
+            {
+              "name": "ABC052-C: Factors of Factorial",
+              "score": 300,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/abc052/tasks/arc067_a"
+            }
+          ]
+        },
+        {
+          "fields": "GCD, LCM",
+          "problems": [
+            {
+              "name": "AGC018-A: Getting Difference",
+              "score": 300,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/agc018/tasks/agc018_a"
+            },
+            {
+              "name": "ABC125-C: GCD on Blackboard",
+              "score": 300,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/abc125/tasks/abc125_c"
+            },
+            {
+              "name": "ABC118-C: Monsters Battle Royale",
+              "score": 300,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/abc118/tasks/abc118_c"
+            },
+            {
+              "name": "ABC109-C: Skip",
+              "score": 300,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/abc109/tasks/abc109_c"
+            },
+            {
+              "name": "ABC070-C: Multiple Clocks",
+              "score": 300,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/abc070/tasks/abc070_c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "BruteForce": [
+        {
+          "fields": "Bit Brute Force",
+          "problems": [
+            {
+              "name": "ABC128-C: Switches",
+              "score": 300,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/abc128/tasks/abc128_c"
+            },
+            {
+              "name": "ABC119-C: Synthetic Kadomatsu",
+              "score": 300,
+              "intuition": 350,
+              "href": "https://atcoder.jp/contests/abc119/tasks/abc119_c"
+            },
+            {
+              "name": "ABC104-C: All Green",
+              "score": 300,
+              "intuition": 350,
+              "href": "https://atcoder.jp/contests/abc104/tasks/abc104_c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "AccumulateSum": [
+        {
+          "fields": "One Dimentional AccumulateSum",
+          "problems": [
+            {
+              "name": "Tenka1 Programmer Beginner Contest 2019-C: Stones",
+              "score": 300,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/tenka1-2019-beginner/tasks/tenka1_2019_cv"
+            },
+            {
+              "name": "全国統一プログラミング王決定戦本戦-A: Abundant Resources",
+              "score": 200,
+              "intuition": 250,
+              "href": "https://atcoder.jp/contests/nikkei2019-final/tasks/nikkei2019_final_a"
+            },
+            {
+              "name": "Indeedなう（オープンコンテストB）-B: How are you?",
+              "score": 300,
+              "intuition": 350,
+              "href": "https://atcoder.jp/contests/indeednow-finalb-open/tasks/indeednow_2015_finalb_b"
+            },
+            {
+              "name": "AGC023-A: Zero-Sum Ranges",
+              "score": 200,
+              "intuition": 350,
+              "href": "https://atcoder.jp/contests/agc023/tasks/agc023_a"
+            },
+            {
+              "name": "ABC129-B: Balance",
+              "score": 200,
+              "intuition": 200,
+              "href": "https://atcoder.jp/contests/abc129/tasks/abc129_b"
+            },
+            {
+              "name": "ABC122-C: GeT AC",
+              "score": 300,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/abc122/tasks/abc122_c"
+            },
+            {
+              "name": "ABC105-D: Candy Distribution",
+              "score": 400,
+              "intuition": 400,
+              "href": "https://atcoder.jp/contests/abc105/tasks/abc105_d"
+            },
+            {
+              "name": "ABC098-C: Attention",
+              "score": 300,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/abc098/tasks/arc098_a"
+            },
+            {
+              "name": "ABC067-C: Splitting Pile",
+              "score": 300,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/abc067/tasks/arc078_a"
+            }
+          ]
+        },
+        {
+          "fields": "Two Dimentional AccumulateSum",
+          "problems": [
+            {
+              "name": "第18回日本情報オリンピック本戦-A: 勇者ビ太郎 (Bitaro the Brave)",
+              "score": 100,
+              "intuition": 350,
+              "href": "https://atcoder.jp/contests/joi2019ho/tasks/joi2019ho_a"
+            },
+            {
+              "name": "第16回日本情報オリンピック予選-C: 休憩スペース (Refreshment Area)",
+              "score": 100,
+              "intuition": 350,
+              "href": "https://atcoder.jp/contests/joi2017yo/tasks/joi2017yo_c"
+            },
+            {
+              "name": "第15回日本情報オリンピック予選-C: ロシアの旗 (Russian Flag)",
+              "score": 100,
+              "intuition": 350,
+              "href": "https://atcoder.jp/contests/joi2016yo/tasks/joi2016yo_c"
+            }
+          ]
+        },
+        {
+          "fields": "One Dimentional imos",
+          "problems": [
+            {
+              "name": "CPSCO2019 Session3-C: Camp Reception",
+              "score": 300,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/cpsco2019-s3/tasks/cpsco2019_s3_c"
+            },
+            {
+              "name": "ABC127-C: Prison",
+              "score": 300,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/abc127/tasks/abc127_c"
+            },
+            {
+              "name": "ABC035-C: オセロ",
+              "score": 0,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/abc035/tasks/abc035_c"
             }
           ]
         }

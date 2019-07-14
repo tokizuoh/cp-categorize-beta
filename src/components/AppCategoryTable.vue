@@ -87,9 +87,9 @@
       pavePath(a){
         const dict = {
           '数学': 'math',
-          '全探索': 'bruteforce',
+          '全探索': 'brute_force',
           'グラフ': 'graph',
-          '累積和': 'accumlate_sum',
+          '累積和': 'accumulate_sum',
           '尺取法': 'two_pointer',
           '二分探索': 'binary_search',
           '動的計画法': 'dp',

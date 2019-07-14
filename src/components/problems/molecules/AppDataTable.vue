@@ -2,9 +2,9 @@
   <div class="entire-datatable">
     <div class="outliner">
       <v-toolbar color="#112B42"
-                dark
-                flat
-                height="30px">
+                 dark
+                 flat
+                 height="30px">
         <v-icon>
           list
         </v-icon>
