@@ -10,9 +10,6 @@
                       :problems="d.problems">
       </app-data-table>
     </div>
-    <br>
-    <br>
-    <br>
   </div>
 </template>
 

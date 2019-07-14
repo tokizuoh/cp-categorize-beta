@@ -10,9 +10,6 @@
                       :problems="d.problems">
       </app-data-table>
     </div>
-    <br>
-    <br>
-    <br>
   </div>
 </template>
 
@@ -28,7 +25,7 @@ export default {
   data() {
     return {
       categoryTitle: "Graph",
-      categoryDetail: "BFS, DFS, Dijkstra, UnionFind, WarshallFloyd, ...",
+      categoryDetail: "BFS, DFS, Dijkstra, UnionFind, WarshallFloyd, Kruskal, ...",
       categoryName: []
     };
   },

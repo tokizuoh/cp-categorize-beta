@@ -24,21 +24,21 @@ export default {
   },
   data() {
     return {
-      categoryTitle: "Brute Force",
-      categoryDetail: "Bit Brute Force, ...",
+      categoryTitle: "Two Pointer",
+      categoryDetail: "Two Pointer",
       categoryName: []
     };
   },
   created() {
-    let BFArray = [];
+    let TPArray = [];
     data.map(category => {
       for (let key in category) {
-        if (key == "BruteForce") {
-          BFArray = category[key];
+        if (key == "TwoPointer") {
+          TPArray = category[key];
         }
       }
     });
-    this.categoryName = BFArray;
+    this.categoryName = TPArray;
   }
 };
 </script>

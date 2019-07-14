@@ -24,8 +24,8 @@ export default {
   },
   data() {
     return {
-      categoryTitle: "Brute Force",
-      categoryDetail: "Bit Brute Force, ...",
+      categoryTitle: "Binary Search",
+      categoryDetail: "Binary Search",
       categoryName: []
     };
   },
@@ -33,7 +33,7 @@ export default {
     let BFArray = [];
     data.map(category => {
       for (let key in category) {
-        if (key == "BruteForce") {
+        if (key == "BinarySearch") {
           BFArray = category[key];
         }
       }

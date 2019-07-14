@@ -10,9 +10,6 @@
                       :problems="d.problems">
       </app-data-table>
     </div>
-    <br>
-    <br>
-    <br>
   </div>
 </template>
 
@@ -28,7 +25,7 @@ export default {
   data() {
     return {
       categoryTitle: "Accumulate Sum",
-      categoryDetail: "One Dimentional AccumulateSum, Two Dimentional AccumulateSum, One Dimentional imos, ...",
+      categoryDetail: "One Dimentional AccumulateSum, Two Dimentional AccumulateSum, One Dimentional imos",
       categoryName: []
     };
   },

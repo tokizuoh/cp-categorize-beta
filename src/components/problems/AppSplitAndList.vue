@@ -24,21 +24,21 @@ export default {
   },
   data() {
     return {
-      categoryTitle: "Brute Force",
-      categoryDetail: "Bit Brute Force, ...",
+      categoryTitle: "Split and List",
+      categoryDetail: "Split and List",
       categoryName: []
     };
   },
   created() {
-    let BFArray = [];
+    let SALArray = [];
     data.map(category => {
       for (let key in category) {
-        if (key == "BruteForce") {
-          BFArray = category[key];
+        if (key == "SplitAndList") {
+          SALArray = category[key];
         }
       }
     });
-    this.categoryName = BFArray;
+    this.categoryName = SALArray;
   }
 };
 </script>

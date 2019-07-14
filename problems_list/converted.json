@@ -121,6 +121,12 @@
               "intuition": 400
             },
             {
+              "name": "ABC114-C: 755",
+              "score": 300,
+              "href": "https://atcoder.jp/contests/abc114/tasks/abc114_c",
+              "intuition": 350
+            },
+            {
               "name": "ABC087-D: People on a Line",
               "score": 400,
               "href": "https://atcoder.jp/contests/abc087/tasks/arc090_b",
@@ -363,6 +369,17 @@
           ]
         },
         {
+          "fields": "Kruskal",
+          "problems": [
+            {
+              "name": "いろはちゃんコンテスト Day2-D: 楽しすぎる家庭菜園",
+              "score": 400,
+              "intuition": 400,
+              "href": "https://atcoder.jp/contests/iroha2019-day2/tasks/iroha2019_day2_d"
+            }
+          ]
+        },
+        {
           "fields": "Others",
           "attr": "other",
           "problems": [
@@ -588,6 +605,185 @@
               "score": 0,
               "intuition": 300,
               "href": "https://atcoder.jp/contests/abc035/tasks/abc035_c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "TwoPointer": [
+        {
+          "fields": "Two pointer",
+          "problems": [
+            {
+              "name": "ABC032-C: 列",
+              "score": 0,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/abc032/tasks/abc032_c"
+            },
+            {
+              "name": "ARC022-B: 細長いお菓子",
+              "score": 0,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/arc022/tasks/arc022_2"
+            },
+            {
+              "name": "ABC038-C: 単調増加",
+              "score": 0,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/abc038/tasks/abc038_c"
+            },
+            {
+              "name": "Chokudai SpeedRun 001-I: 和がNの区間",
+              "score": 400,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/chokudai_S001/tasks/chokudai_S001_i"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "BinarySearch": [
+        {
+          "fields": "Binary Search",
+          "problems": [
+            {
+              "name": "CPSCO2019 Session4-D: Boring Sequence",
+              "score": 400,
+              "intuition": 400,
+              "href": "https://atcoder.jp/contests/cpsco2019-s4/tasks/cpsco2019_s4_d"
+            },
+            {
+              "name": "CPSCO2019 Session4-C: Make a Team",
+              "score": 300,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/cpsco2019-s4/tasks/cpsco2019_s4_c"
+            },
+            {
+              "name": "CODE FESTIVAL 2018 Final-A: 2540",
+              "score": 300,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/code-festival-2018-final-open/tasks/code_festival_2018_final_a"
+            },
+            {
+              "name": "CODE FESTIVAL 2018 Final-C: Telephone Charge",
+              "score": 300,
+              "intuition": 350,
+              "href": "https://atcoder.jp/contests/code-festival-2018-final-open/tasks/code_festival_2018_final_c"
+            },
+            {
+              "name": "CODE FESTIVAL 2016 Final-B: Exactly N points",
+              "score": 300,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/cf16-final-open/tasks/codefestival_2016_final_b"
+            },
+            {
+              "name": "square869120Contest#4-A: Atcoder Handles",
+              "score": 250,
+              "intuition": 350,
+              "href": "https://atcoder.jp/contests/s8pc-4/tasks/s8pc_4_a"
+            },
+            {
+              "name": "ARC050-B: 花束",
+              "score": 0,
+              "intuition": 350,
+              "href": "https://atcoder.jp/contests/arc050/tasks/arc050_b"
+            },
+            {
+              "name": "ARC033-B: メタ構文変数",
+              "score": 0,
+              "intuition": 350,
+              "href": "https://atcoder.jp/contests/arc033/tasks/arc033_2"
+            },
+            {
+              "name": "ABC119-D: Lazy Faith",
+              "score": 400,
+              "intuition": 400,
+              "href": "https://atcoder.jp/contests/abc119/tasks/abc119_d"
+            },
+            {
+              "name": "ABC063-D: Widespread",
+              "score": 400,
+              "intuition": 400,
+              "href": "https://atcoder.jp/contests/abc063/tasks/arc075_b"
+            },
+            {
+              "name": "第13回日本情報オリンピック予選-B: 投票 (Vote)",
+              "score": 100,
+              "intuition": 350,
+              "href": "https://atcoder.jp/contests/joi2014yo/tasks/joi2014yo_b"
+            },
+            {
+              "name": "2007年日本情報オリンピック春合宿OJ-B: 階乗 (Factorial)",
+              "score": 0,
+              "intuition": 350,
+              "href": "https://atcoder.jp/contests/joisc2007/tasks/joisc2007_factor"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "DynamicProgramming": [
+        {
+          "fields": "One Dimentional Dynamic Programming",
+          "problems": [
+            {
+              "name": "第2回早稲田大学プログラミングコンテスト-B: 雨上がり",
+              "score": null,
+              "intuition": 350,
+              "href": "https://atcoder.jp/contests/wupc2nd/tasks/wupc_02"
+            },
+            {
+              "name": "ABC129-C: Typical Stairs",
+              "score": 300,
+              "intuition": 350,
+              "href": "https://atcoder.jp/contests/abc129/tasks/abc129_c"
+            },
+            {
+              "name": "ABC099-C: Strange Bank",
+              "score": 300,
+              "intuition": 350,
+              "href": "https://atcoder.jp/contests/abc099/tasks/abc099_c"
+            },
+            {
+              "name": "Educational DP Contest-B: Frog 2",
+              "score": 100,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/dp/tasks/dp_b"
+            },
+            {
+              "name": "Educational DP Contest-A: Frog 1",
+              "score": 100,
+              "intuition": 300,
+              "href": "https://atcoder.jp/contests/dp/tasks/dp_a"
+            }
+          ]
+        },
+        {
+          "fields": "Two Dimentional Dynamic Programming",
+          "problems": [
+            {
+              "name": "WUPC2012-D: 三角パズル",
+              "score": 0,
+              "intuition": 400,
+              "href": "https://atcoder.jp/contests/wupc2012/tasks/wupc2012_4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "SplitAndList": [
+        {
+          "fields": "Split and List",
+          "problems": [
+            {
+              "name": "ABC123-D: Cake 123",
+              "score": 400,
+              "intuition": 400,
+              "href": "https://atcoder.jp/contests/abc123/tasks/abc123_d"
             }
           ]
         }

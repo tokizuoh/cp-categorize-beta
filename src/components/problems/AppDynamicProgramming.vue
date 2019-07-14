@@ -24,21 +24,21 @@ export default {
   },
   data() {
     return {
-      categoryTitle: "Brute Force",
-      categoryDetail: "Bit Brute Force, ...",
+      categoryTitle: "Dinamic Programming",
+      categoryDetail: "One Dimentional Dynamic Programming, Two Dimentional Dynamic Programming,",
       categoryName: []
     };
   },
   created() {
-    let BFArray = [];
+    let DPArray = [];
     data.map(category => {
       for (let key in category) {
-        if (key == "BruteForce") {
-          BFArray = category[key];
+        if (key == "DynamicProgramming") {
+          DPArray = category[key];
         }
       }
     });
-    this.categoryName = BFArray;
+    this.categoryName = DPArray;
   }
 };
 </script>
