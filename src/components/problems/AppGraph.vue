@@ -1,6 +1,8 @@
 <template>
   <div>
-    <app-category-title></app-category-title>
+    <app-category-title  :categoryTitle="categoryTitle"
+                         :categoryDetail="categoryDetail">
+    </app-category-title>
     <div id="data">
       <app-data-table v-for="d in categoryName"
                       :key="d.name"
@@ -17,17 +19,16 @@
 <script>
 import AppCategoryTitle from "./../AppCategoryTitle";
 import AppDataTable from "./molecules/AppDataTable";
-import AppJumbotron from "./molecules/AppJumbotron";
 import { data } from "../../../problems_list/converted.json";
 export default {
   components: {
     AppCategoryTitle,
-    AppDataTable,
-    AppJumbotron
+    AppDataTable
   },
   data() {
     return {
       categoryTitle: "Graph",
+      categoryDetail: "BFS, DFS, Dijkstra, UnionFind, WarshallFloyd, ...",
       categoryName: []
     };
   },

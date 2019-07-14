@@ -1,19 +1,19 @@
 <template>
 	<div class="hogehoge">
-			<h1 class="head_title">Graph</h1>
-			<p>
-				BFS, DFS, Dijkstra, Unionfind, Warshall Floyd, ...
-			</p>
+			<h1 class="head_title"> {{ categoryTitle }} </h1>
+			<p> {{ categoryDetail }} </p>
 	</div>
 </template>
 
 <script>
 export default {
-  components: {
-  },
-  data() {
-    return {
-    };
+  props: {
+		categoryTitle: {
+			type: String
+		},
+		categoryDetail: {
+			type: String
+		}
   },
 };
 </script>

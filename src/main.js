@@ -3,11 +3,11 @@ import App from './App'
 import router from './router'
 import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
-import vueSmoothScroll from 'vue-smooth-scroll'
+import VueScrollTo from "vue-scrollto";
+
 
 Vue.use(Vuetify)
-Vue.use(vueSmoothScroll);
-
+Vue.use(VueScrollTo)
 Vue.config.productionTip = false
 
 new Vue({
