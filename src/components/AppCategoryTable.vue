@@ -1,5 +1,5 @@
 <template>
-  <p>
+  <div class="hohoho">
     <v-toolbar color="#112B42"
                dark
                height="30px"
@@ -21,7 +21,7 @@
         </tr>
       </template>
     </v-data-table>
-  </p>
+  </div>
 </template>
 
 <script>
@@ -102,7 +102,7 @@
 </script>
 
 <style>
-.p {
+.hohoho {
     width: 85%;
     margin: auto;
     padding: 0.05em;
