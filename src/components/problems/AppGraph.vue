@@ -1,7 +1,6 @@
 <template>
   <div>
-    <app-jumbotron :categoryTitle="categoryTitle">
-    </app-jumbotron>
+    <app-category-title></app-category-title>
     <div id="data">
       <app-data-table v-for="d in categoryName"
                       :key="d.name"
@@ -16,11 +15,13 @@
 </template>
 
 <script>
+import AppCategoryTitle from "./../AppCategoryTitle";
 import AppDataTable from "./molecules/AppDataTable";
 import AppJumbotron from "./molecules/AppJumbotron";
 import { data } from "../../../problems_list/converted.json";
 export default {
   components: {
+    AppCategoryTitle,
     AppDataTable,
     AppJumbotron
   },
@@ -43,5 +44,3 @@ export default {
   }
 };
 </script>
-
-<style>

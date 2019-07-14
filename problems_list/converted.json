@@ -4,6 +4,7 @@
       "Graph": [
         {
           "fields": "BFS / Breadth First Search",
+          "attr": "bfs",
           "problems": [
             {
               "name": "QUPC2018-C: Ito Campus",
@@ -63,6 +64,7 @@
         },
         {
           "fields": "DFS / Depth First Search",
+          "attr": "dfs",
           "problems": [
             {
               "name": "CPSCO2019 Session1-C: Coins",
@@ -170,6 +172,7 @@
         },
         {
           "fields": "Dijkstra",
+          "attr": "dijkstra",
           "problems": [
             {
               "name": "いろはちゃんコンテストDay1-I: リスのお仕事",
@@ -223,6 +226,7 @@
         },
         {
           "fields": "UnionFind",
+          "attr": "unionfind",
           "problems": [
             {
               "name": "diverta 2019 Programming Contest 2-B: Picking Up",
@@ -300,6 +304,7 @@
         },
         {
           "fields": "Warshall Floyd",
+          "attr": "warshallfloyd",
           "problems": [
             {
               "name": "ARC035-C: アットコーダー王国の交通事情",
@@ -359,6 +364,7 @@
         },
         {
           "fields": "Others",
+          "attr": "other",
           "problems": [
             {
               "name": "NJPC2017-B: 格子グラフ",
@@ -380,6 +386,7 @@
       "Math": [
         {
           "fields": "combination",
+          "attr": "combination",
           "problems": [
             {
               "name": "hoge",

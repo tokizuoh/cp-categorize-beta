@@ -1,51 +1,52 @@
 <template>
   <div class="entire-datatable">
-    <v-toolbar flat
-               height="30px">
-      <v-icon>
-        list
-      </v-icon>
-      <v-toolbar-title>
-        {{ categoryName }}
-      </v-toolbar-title>
-      <v-spacer>
-      </v-spacer>
-      <v-toolbar-items class="hidden-sm-and-down">
-      </v-toolbar-items>
-    </v-toolbar>
-    <v-data-table :headers="headers"
-                  hide-actions
-                  :items="problems"
-                  class="elevation-1">
-      <template slot="headerCell"
-                slot-scope="props">
-        <v-tooltip bottom>
-          <template v-slot:activator="{ on }">
-            <span v-on="on">
-              {{ props.header.text }}
+    <div class="outliner">
+      <v-toolbar color="#112B42"
+                dark
+                flat
+                height="30px">
+        <v-icon>
+          list
+        </v-icon>
+        <v-toolbar-title>
+          {{ categoryName }}
+        </v-toolbar-title>
+        <v-spacer>
+        </v-spacer>
+        <v-toolbar-items class="hidden-sm-and-down">
+        </v-toolbar-items>
+      </v-toolbar>
+      <v-data-table :headers="headers"
+                    hide-actions
+                    :items="problems"
+                    class="elevation-1">
+        <template slot="headerCell"
+                  slot-scope="props">
+          <v-tooltip bottom>
+            <template v-slot:activator="{ on }">
+              <span v-on="on">
+                {{ props.header.text }}
+              </span>
+            </template>
+            <span>
+              {{ props.header.detail }}
             </span>
-          </template>
-          <span>
-            {{ props.header.detail }}
-          </span>
-        </v-tooltip>
-      </template>
-        <template v-slot:items="props">
-          <tr @click.right.prevent="say(1)"
-              @click.left="jump(props.item.href)">
-            <td>{{ props.item.name }}</td>
-            <td class="text-xs-left">
-              {{ props.item.score }}
-            </td>
-            <td class="text-xs-left">
-              {{ props.item.intuition }}
-            </td>
-          </tr>
+          </v-tooltip>
         </template>
-    </v-data-table>
-    <br>
-    <br>
-    <br>
+          <template v-slot:items="props">
+            <tr @click.right.prevent="say(1)"
+                @click.left="jump(props.item.href)">
+              <td>{{ props.item.name }}</td>
+              <td class="text-xs-left">
+                {{ props.item.score }}
+              </td>
+              <td class="text-xs-left">
+                {{ props.item.intuition }}
+              </td>
+            </tr>
+          </template>
+      </v-data-table>
+    </div>
   </div>
 </template>
 
@@ -108,5 +109,12 @@
 .entire-datatable {
   width: 85%;
   margin: auto;
+}
+
+.entire-datatable {
+  margin: 3em auto;
+  padding: 0.05em;
+  width: 85%;
+  border: 1px solid #ccc;
 }
 </style>

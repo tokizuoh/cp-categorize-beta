@@ -1,6 +1,9 @@
 <template>
   <p>
-    <v-toolbar height="30px" flat>
+    <v-toolbar color="#112B42"
+    　　　　　　 dark
+               height="30px"
+               flat>
       <v-icon>subject</v-icon>
       <v-toolbar-title>Introduction</v-toolbar-title>
     </v-toolbar>
@@ -42,6 +45,8 @@
 p {
   width: 85%;
   margin: auto;
+  padding: 0.05em;
+  border: 1px solid #ccc;
 }
 
 .card-text {

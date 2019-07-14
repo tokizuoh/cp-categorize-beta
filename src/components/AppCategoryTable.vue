@@ -1,17 +1,19 @@
 <template>
   <p>
-    <v-toolbar height="30px" flat>
+    <v-toolbar color="#112B42"
+               dark
+               height="30px"
+               flat>
       <v-icon>category</v-icon>
       <v-toolbar-title>Category</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-sm-and-down">
       </v-toolbar-items>
     </v-toolbar>
-    <v-data-table
-      :headers="headers"
-      hide-actions="true"
-      :items="categories"
-      class="elevation-1">
+    <v-data-table :headers="headers"
+                  hide-actions="true"
+                  :items="categories"
+                  class="elevation-1">
       <template v-slot:items="props">
         <tr @click="pavePath(props.item)">
           <td>{{ props.item.name }}</td>
@@ -100,8 +102,10 @@
 </script>
 
 <style>
-p {
+.p {
     width: 85%;
     margin: auto;
+    padding: 0.05em;
+    border: 1px solid #ccc;
 }
 </style>

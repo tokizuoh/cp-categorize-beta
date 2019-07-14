@@ -1,6 +1,7 @@
 data:
 - Graph: 
   - fields: BFS / Breadth First Search
+    attr: "bfs"
     problems:
       - name: "QUPC2018-C: Ito Campus"
         score: 400
@@ -39,6 +40,7 @@ data:
         intuition: ''
         href: 'https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e'
   - fields: DFS / Depth First Search
+    attr: "dfs"
     problems:
       - name: 'CPSCO2019 Session1-C: Coins'
         score: 300
@@ -109,6 +111,7 @@ data:
         href: 'https://atcoder.jp/contests/joi2009yo/tasks/joi2009yo_d'
         intuition: 350
   - fields: Dijkstra
+    attr: "dijkstra"
     problems:
         - name: 'いろはちゃんコンテストDay1-I: リスのお仕事'
           score: 500
@@ -143,6 +146,7 @@ data:
           intuition: 400
           href: 'https://atcoder.jp/contests/abc020/tasks/abc020_c'
   - fields: UnionFind
+    attr: "unionfind"
     problems:
       - name: "diverta 2019 Programming Contest 2-B: Picking Up"
         score: 300
@@ -193,6 +197,7 @@ data:
         intuition: 400
         href: 'https://beta.atcoder.jp/contests/atc001/tasks/unionfind_a'  
   - fields: Warshall Floyd
+    attr: "warshallfloyd"
     problems:
       - name: "ARC035-C: アットコーダー王国の交通事情"
         score: 0
@@ -231,6 +236,7 @@ data:
         intuition: 300
         href: "https://atcoder.jp/contests/joi2010yo/tasks/joi2010yo_c"
   - fields: Others
+    attr: "other"
     problems:
       - name: "NJPC2017-B: 格子グラフ"
         score: 300
@@ -242,6 +248,7 @@ data:
         href: "https://atcoder.jp/contests/arc030/tasks/arc030_1"
 - Math:
   - fields: combination
+    attr: "combination"
     problems:
       - name: hoge
         score: 400

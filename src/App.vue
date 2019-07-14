@@ -5,18 +5,18 @@
     <app-header/>
     <br>
     <router-view/>
-    <app-footer/>
+    <!-- <app-footer/> -->
   </div>
 </template>
 
 <script>
 import AppHeader from './components/template/AppHeader'
-import AppFooter from './components/template/AppFooter'
+// import AppFooter from './components/template/AppFooter'
 
 export default {
   components: {
-    AppHeader,
-    AppFooter
+    AppHeader
+    // AppFooter
   }
 }
 </script>

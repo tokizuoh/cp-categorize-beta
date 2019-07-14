@@ -18,12 +18,3 @@ export default {
     }
 }
 </script>
-
-<!-- 
-<style scoped>
-.start {
-    position: absolute;
-    margin: auto;
-}
-</style>
--->
