@@ -25,7 +25,7 @@ export default {
   data() {
     return {
       categoryTitle: "Dinamic Programming",
-      categoryDetail: "One Dimentional Dynamic Programming, Two Dimentional Dynamic Programming,",
+      categoryDetail: "One Dimentional Dynamic Programming, Two Dimentional Dynamic Programming",
       categoryName: []
     };
   },

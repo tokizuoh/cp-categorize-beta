@@ -25,7 +25,7 @@ export default {
   data() {
     return {
       categoryTitle: "Math",
-      categoryDetail: "Divisor, GCD, LCM, ...",
+      categoryDetail: "Divisor, GCD, LCM",
       categoryName: []
     };
   },

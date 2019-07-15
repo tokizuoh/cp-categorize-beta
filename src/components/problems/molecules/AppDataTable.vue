@@ -17,7 +17,7 @@
         </v-toolbar-items>
       </v-toolbar>
       <v-data-table :headers="headers"
-                    hide-actions
+                    :hide-actions="true"
                     :items="problems"
                     class="elevation-1">
         <template slot="headerCell"

@@ -35,7 +35,7 @@
   export default {
     data () {
       return {
-        card_text: 'AtCoder, Aizu Online Judge, CODE FORCES, CS Academy, yukicoderなどで出題された競技プログラミングの問題を勝手に分類'
+        card_text: 'AtCoder, Aizu Online Judge, Codeforces, CS Academy, yukicoderなどで出題された競技プログラミングの問題を勝手に分類'
       }
     }
   }

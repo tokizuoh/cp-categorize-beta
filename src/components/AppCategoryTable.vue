@@ -11,8 +11,8 @@
       </v-toolbar-items>
     </v-toolbar>
     <v-data-table :headers="headers"
-                  hide-actions="true"
                   :items="categories"
+                  :hide-actions="true"
                   class="elevation-1">
       <template v-slot:items="props">
         <tr @click="pavePath(props.item)">
