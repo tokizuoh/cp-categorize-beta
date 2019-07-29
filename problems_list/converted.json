@@ -242,6 +242,97 @@
               "score": 0,
               "href": "https://atcoder.jp/contests/joi2009yo/tasks/joi2009yo_d",
               "intuition": 350
+            },
+            {
+              "site": "AIZU ONLINE JUDGE",
+              "name": "1160: How Many Islands?",
+              "score": 0,
+              "intuition": 350,
+              "href": "https://onlinejudge.u-aizu.ac.jp/challenges/search/titles/1160"
+            },
+            {
+              "site": "AIZU ONLINE JUDGE",
+              "name": "1130: Red and Black",
+              "score": 0,
+              "intuition": 350,
+              "href": "https://onlinejudge.u-aizu.ac.jp/challenges/search/titles/1130"
+            },
+            {
+              "site": "AIZU ONLINE JUDGE",
+              "name": "0118: Property Distribution",
+              "score": 0,
+              "intuition": 350,
+              "href": "https://onlinejudge.u-aizu.ac.jp/challenges/search/titles/0118"
+            },
+            {
+              "site": "AIZU ONLINE JUDGE",
+              "name": "0067: The Number of Island",
+              "score": 0,
+              "intuition": 350,
+              "href": "https://onlinejudge.u-aizu.ac.jp/problems/0067"
+            },
+            {
+              "site": "AIZU ONLINE JUDGE",
+              "name": "0030: Sum of Integers",
+              "score": 0,
+              "intuition": 350,
+              "href": "https://onlinejudge.u-aizu.ac.jp/problems/0030"
+            },
+            {
+              "site": "AIZU ONLINE JUDGE",
+              "name": "GRL_5_A: Diameter of a Tree",
+              "score": 0,
+              "intuition": 350,
+              "href": "https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/5/GRL_5_A"
+            },
+            {
+              "site": "CODE FORCES",
+              "name": "1130-C: Connect",
+              "score": 1400,
+              "intuition": 400,
+              "href": "https://codeforces.com/problemset/problem/1130/C"
+            },
+            {
+              "site": "CODE FORCES",
+              "name": "1020-C: Badge",
+              "score": 1000,
+              "intuition": 350,
+              "href": "https://codeforces.com/contest/1020/problem/B"
+            },
+            {
+              "site": "CODE FORCES",
+              "name": "0616-C: The Labyrinth",
+              "score": 1600,
+              "intuition": 400,
+              "href": "https://codeforces.com/contest/616/problem/C"
+            },
+            {
+              "site": "CODE FORCES",
+              "name": "0580-C: Kefa and Park",
+              "score": 1500,
+              "intuition": 350,
+              "href": "https://codeforces.com/problemset/problem/580/C"
+            },
+            {
+              "site": "CODE FORCES",
+              "name": "0122-A: Lucky Division",
+              "score": 1000,
+              "intuition": 350,
+              "href": "https://codeforces.com/problemset/problem/500/A"
+            },
+            {
+              "site": "CODE FORCES",
+              "name": "0115-A: Party",
+              "score": 1300,
+              "intuition": 350,
+              "href": "https://codeforces.com/problemset/problem/122/A"
+            },
+            {
+              "site": "CODE FORCES",
+              "name": "0500-A: New Year Transportation",
+              "score": 1100,
+              "intuition": 350,
+              "href": "https://codeforces.com/contest/115/problem/A"
             }
           ]
         },
