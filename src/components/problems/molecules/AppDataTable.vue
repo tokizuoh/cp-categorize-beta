@@ -68,23 +68,23 @@
           {
             text: 'title',
             align: 'center',
-            sortable: true,
+            sortable: false,
             value: 'name',
-            detail: '[ コンテスト名 ] - [ ID ] : [ 問題名 ]'
+            detail: 'AIZU ONLINE JUDGE: [番号]:[問題名], AtCoder: [コンテスト名]-[ID]:[問題名], CODEFORCES: [コンテスト番号]-[ID]'
           },
           { 
             text: 'score',
             align: 'center',
             sortable: true, 
             value: 'score',
-            detail: '配点 (無記載・特殊な場合は0)'
+            detail: '配点 (各サイトに準拠した点数)　※無記載・特殊な場合は0'
           },
           { 
             text: 'intuition',
             align: 'center',
             sortable: true, 
             value: 'intuition',
-            detail: '作者体感配点 (AtCoder配点基準)'
+            detail: '私の体感配点 (AtCoder配点基準)'
           }
         ],
       }

@@ -41,13 +41,43 @@ data:
       - site: "AtCoder"
         name: "第17回日本情報オリンピック予選-B: 双六 (Sugoroku)"
         score: 0
-        intuition: ""
+        intuition: 400
         href: "https://atcoder.jp/contests/joi2018yo/tasks/joi2018_yo_b"
       - site: "AtCoder"
         name: "第10回日本情報オリンピック予選-E: チーズ (Cheese)"
         score: 0
-        intuition: ""
+        intuition: 400
         href: "https://atcoder.jp/contests/joi2011yo/tasks/joi2011yo_e"
+      - site: "AIZU ONLINE JUDGE"
+        name: "0122: Summer of Phyonkichi"
+        score: 0
+        intuition: 350
+        href: "https://onlinejudge.u-aizu.ac.jp/problems/0122"
+      - site: "CODE FORCES"
+        name: "1141-A: Game 23"
+        score: 1000
+        intuition: 350
+        href: "https://codeforces.com/contest/1141/problem/A"
+      - site: "CODE FORCES"
+        name: "0530-B: Two Buttons"
+        score: 1400
+        intuition: 350
+        href: "https://codeforces.com/contest/520/problem/B"
+      - site: "CODE FORCES"
+        name: "0003-A: Shortest path of the king"
+        score: 1200
+        intuition: 350
+        href: "https://codeforces.com/problemset/problem/3/A"
+      - site: "yukicoder"
+        name: "0697: 池の数はいくつか"
+        score: 0
+        intuition: 350
+        href: "https://yukicoder.me/problems/no/697"
+      - site: "yukicoder"
+        name: "0323: yuki国"
+        score: 0
+        intuition: 350
+        href: "https://yukicoder.me/problems/no/323"
   - fields: DFS / Depth First Search
     attr: "dfs"
     problems:
