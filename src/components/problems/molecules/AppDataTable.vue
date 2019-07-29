@@ -36,6 +36,9 @@
           <template v-slot:items="props">
             <tr @click.right.prevent="say(1)"
                 @click.left="jump(props.item.href)">
+              <td class="text-xs-left">
+                {{ props.item.site }}
+              </td>
               <td>{{ props.item.name }}</td>
               <td class="text-xs-left">
                 {{ props.item.score }}
@@ -56,6 +59,13 @@
       return {
         headers: [
           {
+            text: 'site',
+            align: 'center',
+            sortable: true,
+            value: 'site',
+            detail: 'サイト名'
+          },
+          {
             text: 'title',
             align: 'center',
             sortable: true,
@@ -67,7 +77,7 @@
             align: 'center',
             sortable: true, 
             value: 'score',
-            detail: '配点 (無記載, 特殊な場合は0)'
+            detail: '配点 (無記載・特殊な場合は0)'
           },
           { 
             text: 'intuition',
