@@ -201,7 +201,6 @@ data:
         score: 0
         intuition: 350
         href: "https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/5/GRL_5_A"
-      
       - site: "CODE FORCES"
         name: "1130-C: Connect"
         score: 1400
@@ -237,6 +236,26 @@ data:
         score: 1100
         intuition: 350
         href: "https://codeforces.com/contest/115/problem/A"
+      - site: "HackerRank"
+        name: "Even Tree"
+        score: 0
+        intuition: 400
+        href: "https://www.hackerrank.com/challenges/even-tree/problem"
+      - site: "yukicoder"
+        name: "0424: 立体迷路"
+        score: 0
+        intuition: 400
+        href: "https://yukicoder.me/problems/no/424"
+      - site: "yukicoder"
+        name: "0240: ナイト散歩"
+        score: 0
+        intuition: 350
+        href: "https://yukicoder.me/problems/no/240"
+      - site: "yukicoder"
+        name: "0157: 2つの空洞"
+        score: 0
+        intuition: 400
+        href: "https://yukicoder.me/problems/no/157"
   - fields: Dijkstra
     attr: "dijkstra"
     problems:
@@ -280,6 +299,26 @@ data:
           score: 0
           intuition: 400
           href: "https://atcoder.jp/contests/abc020/tasks/abc020_c"
+        - site: "AIZU ONLINE JUDGE"
+          name: "GRL_1_A: 単一始点最短経路"
+          score: 0
+          intuition: 350
+          href: "https://onlinejudge.u-aizu.ac.jp/problems/GRL_1_A"
+        - site: "AIZU ONLINE JUDGE"
+          name: "ALDS1_12_B: 単一始点最短経路"
+          score: 0
+          intuition: 350
+          href: "ALDS1_12_B: 単一始点最短経路"
+        - site: "CODE FORCES"
+          name: "0020-C: Dijkstra?"
+          score: 2100
+          intuition: 450
+          href: "https://codeforces.com/problemset/problem/20/C"
+        - site: "Sphere online judge"
+          name: "HIGHWAYS - Highways"
+          score: 0
+          intuition: 350
+          href: "https://www.spoj.com/problems/HIGHWAYS/"
   - fields: UnionFind
     attr: "unionfind"
     problems:
