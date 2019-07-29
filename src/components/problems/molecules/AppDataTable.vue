@@ -36,6 +36,9 @@
           <template v-slot:items="props">
             <tr @click.right.prevent="say(1)"
                 @click.left="jump(props.item.href)">
+              <td class="text-xs-left">
+                {{ props.item.site }}
+              </td>
               <td>{{ props.item.name }}</td>
               <td class="text-xs-left">
                 {{ props.item.score }}
@@ -56,25 +59,32 @@
       return {
         headers: [
           {
-            text: 'title',
+            text: 'site',
             align: 'center',
             sortable: true,
+            value: 'site',
+            detail: 'サイト名'
+          },
+          {
+            text: 'title',
+            align: 'center',
+            sortable: false,
             value: 'name',
-            detail: '[ コンテスト名 ] - [ ID ] : [ 問題名 ]'
+            detail: 'AIZU ONLINE JUDGE: [番号]:[問題名], AtCoder: [コンテスト名]-[ID]:[問題名], CODEFORCES: [コンテスト番号]-[ID]'
           },
           { 
             text: 'score',
             align: 'center',
             sortable: true, 
             value: 'score',
-            detail: '配点 (無記載, 特殊な場合は0)'
+            detail: '配点 (各サイトに準拠した点数)　※無記載・特殊な場合は0'
           },
           { 
             text: 'intuition',
             align: 'center',
             sortable: true, 
             value: 'intuition',
-            detail: '作者体感配点 (AtCoder配点基準)'
+            detail: '私の体感配点 (AtCoder配点基準)'
           }
         ],
       }
