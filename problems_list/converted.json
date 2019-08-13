@@ -119,6 +119,13 @@
           "problems": [
             {
               "site": "AtCoder",
+              "name": "KUPC2018-B: 弾幕ゲーム",
+              "score": 200,
+              "href": "https://atcoder.jp/contests/kupc2018/tasks/kupc2018_b",
+              "intuition": 350
+            },
+            {
+              "site": "AtCoder",
               "name": "CPSCO2019 Session1-C: Coins",
               "score": 300,
               "href": "https://atcoder.jp/contests/cpsco2019-s1/tasks/cpsco2019_s1_c",
